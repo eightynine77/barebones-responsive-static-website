@@ -1,0 +1,10 @@
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('menu-icon').addEventListener('click', function() {
+        var navLinks = document.getElementById('nav-links');
+        if (navLinks.style.display === 'block') {
+            navLinks.style.display = 'none';
+        } else {
+            navLinks.style.display = 'block';
+        }
+    });
+});
